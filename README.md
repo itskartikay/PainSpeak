@@ -1,6 +1,8 @@
 # PainSpeak - Universal Pain Translator
 
-![PainSpeak Logo](https://github.com/itskartikay/PainSpeak/assets/95382213/79fc1d79-d925-4b44-a927-1e096b606e8b)
+<p align="center">
+  <img src="https://github.com/itskartikay/PainSpeak/assets/95382213/79fc1d79-d925-4b44-a927-1e096b606e8b" alt="PainSpeak Logo"/>
+</p>
 
 PainSpeak is an innovative React app that serves as a Universal Pain Translator. Its primary goal is to bridge the communication gap between patients and paramedics, providing accurate information about a patient's condition in a stressful and time-sensitive environment. The app accomplishes this by presenting a card-based interface, each depicting different illnesses with corresponding photos and descriptions in two languages: the patient's native language and medical terms in English.
 
