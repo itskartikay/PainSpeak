@@ -25,7 +25,7 @@ const App = () => {
               margin: "0% 10%",
               display: "flex",
               flexWrap: "wrap",
-              justifyContent: "space-between"
+              justifyContent: "space-between"                
               }}>
               {Diseasedb.map(ncard)}
             </div>

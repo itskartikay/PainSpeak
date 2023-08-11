@@ -6,9 +6,11 @@
     padding-top: 1%;
     padding-bottom: 1%;
 
-    background: #FFF6F4;
+    background: #fafafa;
     margin: 0;
-    box-shadow: 0px 4px 15px 0px rgba(248, 111, 3, 0.50);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.5);
+
+    border-radius: 0% 0%  5% 5%;
 }
 
 .logo{
