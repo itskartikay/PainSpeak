@@ -1,34 +1,58 @@
 const Diseasedb = [
      {   
-        imgsource : require("./assets/Disease/acidity.png"),
-        engName : "Acidity",
-        rusName: "Кислотность"
-     },
-     {
-        imgsource : require("./assets/Disease/chest-pain.png"),
-        engName: "Chest Pain",
-        rusName : "Боль в груди"
-     },
-     {
-        imgsource : require("./assets/Disease/coughing.png"),
-        engName: "Coughing",
-        rusName : "Кашляющий"
-     },
-     {
-        imgsource : require("./assets/Disease/itching.png"),
-        engName: "itchiness",
-        rusName : "Зуд"
-     },
-     {
-        imgsource : require("./assets/Disease/joint-pain.png"),
-        engName: "Back Pain",
-        rusName : "Боль в спине"
-     },
-     {
-        imgsource : require("./assets/Disease/back-pain.png"),
-        engName : "Joint Pain",
-        rusName: "Боль в суставах"
-     }
+         imgsource : require("./assets/Disease/acidity.png"),
+         engName : "Acidity",
+
+         translations : {  
+            russian: "Кислотность",
+            hindi: 'सीने में दर्द',
+         }
+      },
+      {
+         imgsource : require("./assets/Disease/chest-pain.png"),
+         engName: "Chest Pain",
+
+         translations : {
+            russian : "Боль в груди",
+            hindi: 'सीने में दर्द',
+         }
+      },
+      {
+         imgsource : require("./assets/Disease/coughing.png"),
+         engName: "Coughing",
+
+         translations : {
+            russian : "Кашляющий",
+            hindi: 'सीने में दर्द',
+         }
+      },
+      {
+         imgsource : require("./assets/Disease/itching.png"),
+         engName: "itchiness",
+
+         translations : {
+            russian : "Зуд",
+            hindi: 'सीने में दर्द',
+         }
+      },
+      {
+         imgsource : require("./assets/Disease/joint-pain.png"),
+         engName: "Back Pain",
+
+         translations : {
+            russian : "Боль в спине",
+            hindi: 'सीने में दर्द',
+         }
+      },
+      {
+         imgsource : require("./assets/Disease/back-pain.png"),
+         engName : "Joint Pain",
+
+         translations : {
+            russian: "Боль в суставах",
+            hindi: 'सीने में दर्द',
+        }
+      }  
 
 ];
 

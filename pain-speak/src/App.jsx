@@ -1,33 +1,63 @@
-import React from "react";
+import React, {useState} from "react";
 
-import Nav from "./Nav"
+import Nav from "./Nav";
 import Diseasedb from "./Diseasedb";
-import Card from './Card'
+import Card from './Card';
+import DropdownMenu from "./DropdownMenu";
 
-function ncard (Diseasedb){
-  return (
-    <Card
+// function ncard (Diseasedb){
+//   return (
+//     <Card
 
-      imgsrc={Diseasedb.imgsource}
-      rusn={Diseasedb.rusName}
-      engn={Diseasedb.engName}
+//       imgsrc={Diseasedb.imgsource}
 
-    />
-  )
-}
+//       translations={Diseasedb.translations}
+//       engn={Diseasedb.engName}
+//       selectedLanguage={selectedLanguage}
+
+//     />
+//   )
+// }
 
 
 const App = () => {
+
+  const [selectedLanguage, setSelectedLanguage] = useState('hindi');
+
+  const handleChangeLanguage = (event) => {
+    setSelectedLanguage(event.target.value);
+  };
+
+
     return (
         <>
             <Nav/>
+
+            
+            <DropdownMenu selectedLanguage={selectedLanguage} onChangeLanguage={handleChangeLanguage} />
+
+
             <div style={{
               margin: "0% 10%",
               display: "flex",
               flexWrap: "wrap",
               justifyContent: "space-between"                
-              }}>
-              {Diseasedb.map(ncard)}
+            }}>
+              
+
+              {Diseasedb.map((pain) => (
+
+              <Card
+
+                image={pain.imgsource}
+                type={pain.engName}
+                translations={pain.translations}
+                selectedLanguage={selectedLanguage}
+                
+            />
+            ))}
+
+
             </div>
         </>
     )
