@@ -2,12 +2,15 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    text-align: center;
-    background-color: rgb(27, 27, 29);
+    background: rgb(27, 27, 29);
+
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .text{
     display: flex;
+    text-align: center;
     color: #ffffff;
     font-family: Outfit;
     font-size: 1.5rem;
