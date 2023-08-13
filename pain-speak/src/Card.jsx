@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import "./Card-two.css";
 
 const Card = ({translations, selectedLanguage, image, type}) => {
 
@@ -14,7 +15,7 @@ const Card = ({translations, selectedLanguage, image, type}) => {
                 </div>
 
                 <div className="main-text">
-                    <h1 className="h1-text">{selectedLanguage === 'hindi'} {translation}</h1>
+                    <h1 className="h1-text">{selectedLanguage === 'select'} {translation}</h1>
                     <h2 className="h2-text">{type}</h2>
                 </div>
 

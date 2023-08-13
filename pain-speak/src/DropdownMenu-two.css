@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+    .language-dropdown {
+        margin-top: 3vh;
+        width: 70%;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+    .side{
+        width: 55%;
+        height: 80%;
+    }
+    .lang{
+        font-size: 0.9rem;
+    }
+    .menu{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .language-dropdown {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        width: 45%;
+        height: auto;
+    }
+    
+    .side {
+        width: 55%;
+        height: 80%;
+        margin-right: 7%;
+    }
+    
+    .lang, .menu {
+        font-size: 1.1rem;
+    }
+}

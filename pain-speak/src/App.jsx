@@ -22,7 +22,7 @@ import DropdownMenu from "./DropdownMenu";
 
 const App = () => {
 
-  const [selectedLanguage, setSelectedLanguage] = useState('hindi');
+  const [selectedLanguage, setSelectedLanguage] = useState('select');
 
   const handleChangeLanguage = (event) => {
     setSelectedLanguage(event.target.value);

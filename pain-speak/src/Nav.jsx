@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./assets/Logo.png"
 import "./Nav.css"
+import "./Nav-two.css"
 
 const Nav = () => {
     return(

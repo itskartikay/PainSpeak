@@ -1,14 +1,20 @@
+.toCenter{
+    display: flex;
+    justify-content: center;
+
+}
+
 .language-dropdown{
     
-    margin: 2vw 38vw;
+    margin: 1.25vw 0vw -1vw 0vw;
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
-    width: 25rem;
-    height: 4.6875rem;
-    border-radius: 2.8125rem;
+    width: 21rem;
+    height: 5rem;
+    border-radius: 3rem;
     background: rgba(82, 95, 225, 0.25);
 }
 
@@ -16,10 +22,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 
-    width: 10.9375rem;
-    height: 4.0625rem;
-    border-radius: 2.8125rem;
+    width: 11rem;
+    height: 4rem;
+    border-radius: 3rem;
     background: #FFA41B;
 }
 
@@ -39,7 +46,18 @@
 }
 
 .menu{
+    background: none;
     display: flex;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem 0rem;
+    margin: auto;
+
+
+
+
     color: #000;
     font-family: Outfit;
     font-size: 1.25rem;
@@ -49,22 +67,3 @@
     letter-spacing: 0.1875rem;
     text-transform: uppercase;
 }
-
-
-
-
-/* .select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
-  }
-  
-.select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
-    top: 7px;
-} */ 
