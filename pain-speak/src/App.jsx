@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Diseasedb from "./Diseasedb";
 import Card from './Card';
 import DropdownMenu from "./DropdownMenu";
+import Footer from "./Footer";
 
 // function ncard (Diseasedb){
 //   return (
@@ -59,6 +60,8 @@ const App = () => {
 
 
             </div>
+
+            <Footer/>
         </>
     )
 }

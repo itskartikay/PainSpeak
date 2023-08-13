@@ -1,0 +1,18 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    background-color: rgb(27, 27, 29);
+}
+
+.text{
+    display: flex;
+    color: #ffffff;
+    font-family: Outfit;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14375rem;
+}
