@@ -6,21 +6,6 @@ import Card from './components/Card';
 import DropdownMenu from "./components/DropdownMenu";
 import Footer from "./components/Footer";
 
-// function ncard (Diseasedb){
-//   return (
-//     <Card
-
-//       imgsrc={Diseasedb.imgsource}
-
-//       translations={Diseasedb.translations}
-//       engn={Diseasedb.engName}
-//       selectedLanguage={selectedLanguage}
-
-//     />
-//   )
-// }
-
-
 const App = () => {
 
   const [selectedLanguage, setSelectedLanguage] = useState('select');

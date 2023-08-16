@@ -15,7 +15,7 @@
     width: 24rem;
     height: 5rem;
     border-radius: 3rem;
-    background: rgba(82, 95, 225, 0.25);
+    background: #395B64;
 }
 
 .side{
@@ -27,7 +27,7 @@
     width: 11rem;
     height: 4rem;
     border-radius: 3rem;
-    background: #FFA41B;
+    background: #2C3333;
 }
 
 .lang{
@@ -35,7 +35,7 @@
     justify-content: center;
     text-align: center;
 
-    color: #000;
+    color: #ffffff;
     font-family: Outfit;
     font-size: 1.25rem;
     font-style: normal;
@@ -58,7 +58,7 @@
 
 
 
-    color: #000;
+    color: #c9bbaa;
     font-family: Outfit;
     font-size: 1.25rem;
     font-style: normal;
