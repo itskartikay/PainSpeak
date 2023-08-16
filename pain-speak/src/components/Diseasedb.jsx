@@ -1,6 +1,6 @@
 const Diseasedb = [
    {
-     imgsource: require("./assets/Disease/acidity.png"),
+     imgsource: require("../assets/Disease/acidity.png"),
      engName: "Acidity",
      translations: {
        russian: "Кислотность",
@@ -22,7 +22,7 @@ const Diseasedb = [
      },
    },
    {
-     imgsource: require("./assets/Disease/freezing.png"),
+     imgsource: require("../assets/Disease/freezing.png"),
      engName: "Freezing",
      translations: {
        russian: "холод",
@@ -43,7 +43,7 @@ const Diseasedb = [
      },
    },
    {
-     imgsource: require("./assets/Disease/coughing.png"),
+     imgsource: require("../assets/Disease/coughing.png"),
      engName: "Coughing",
      translations: {
        russian: "Кашляющий",
@@ -64,7 +64,7 @@ const Diseasedb = [
      },
    },
     {
-      imgsource: require("./assets/Disease/itching.png"),
+      imgsource: require("../assets/Disease/itching.png"),
       engName: "Itchiness",
       translations: {
         russian: "Зуд",
@@ -85,7 +85,7 @@ const Diseasedb = [
       },
     },
     {
-      imgsource: require("./assets/Disease/back-pain.png"),
+      imgsource: require("../assets/Disease/back-pain.png"),
       engName: "Back Pain",
       translations: {
         russian: "Боль в спине",
@@ -106,7 +106,7 @@ const Diseasedb = [
       },
     },
     {
-      imgsource: require("./assets/Disease/joint-pain.png"),
+      imgsource: require("../assets/Disease/joint-pain.png"),
       engName: "Joint Pain",
       translations: {
         russian: "Боль в суставах",
@@ -127,7 +127,7 @@ const Diseasedb = [
       },
     },
     {
-      imgsource: require("./assets/Disease/period-pain.png"),
+      imgsource: require("../assets/Disease/period-pain.png"),
       engName: "Period Pain",
       translations: {
         hindi: "पीरियड दर्द",
@@ -148,7 +148,7 @@ const Diseasedb = [
       },
     },
     {
-      imgsource: require("./assets/Disease/headache.png"),
+      imgsource: require("../assets/Disease/headache.png"),
       engName: "Headache",
       translations: {
         hindi: "सिरदर्द",
@@ -170,7 +170,7 @@ const Diseasedb = [
     },
   
    {
-     imgsource: require('./assets/Disease/toothache.png'),
+     imgsource: require('../assets/Disease/toothache.png'),
      engName: "Toothache",
      translations: {
        hindi: "दांत का दर्द",

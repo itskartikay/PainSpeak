@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./assets/Logo.png"
-import "./Nav.css"
-import "./Nav-two.css"
+import logo from "../assets/Logo.png"
+import "../css/Nav.css"
+import "../css/Nav-two.css"
 
 const Nav = () => {
     return(

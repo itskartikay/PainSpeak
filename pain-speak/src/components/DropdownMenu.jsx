@@ -1,7 +1,7 @@
 import React from 'react';
-import "./DropdownMenu.css"
-import "./DropdownMenu-two.css"
-import "./index.css"
+import "../css/DropdownMenu.css"
+import "../css/DropdownMenu-two.css"
+import "../index.css"
 
 const DropdownMenu = ({ selectedLanguage, onChangeLanguage }) => {
   return (

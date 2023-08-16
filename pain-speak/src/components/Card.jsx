@@ -1,6 +1,6 @@
 import React from "react";
-import "./Card.css";
-import "./Card-two.css";
+import "../css/Card.css";
+import "../css/Card-two.css";
 
 const Card = ({translations, selectedLanguage, image, type}) => {
 

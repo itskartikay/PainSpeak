@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 
-import Nav from "./Nav";
-import Diseasedb from "./Diseasedb";
-import Card from './Card';
-import DropdownMenu from "./DropdownMenu";
-import Footer from "./Footer";
+import Nav from "./components/Nav";
+import Diseasedb from "./components/Diseasedb";
+import Card from './components/Card';
+import DropdownMenu from "./components/DropdownMenu";
+import Footer from "./components/Footer";
 
 // function ncard (Diseasedb){
 //   return (
